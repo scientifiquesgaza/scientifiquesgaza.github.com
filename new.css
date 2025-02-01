@@ -11,10 +11,10 @@
 	--nc-bg-2: #F6F8FA;
 	--nc-bg-3: #E5E7EB;
 	--nc-lk-1: #FF0000; /* Red */
-	--nc-lk-2: #B20000; /* Darker Red */
+	--nc-lk-2: #990000; /* Darker Red */
 	--nc-lk-tx: #FFFFFF;
-	--nc-ac-1: #00C851; /* Green */
-	--nc-ac-tx: #0C4020;
+	--nc-ac-1: #008000; /* Green */
+	--nc-ac-tx: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +27,7 @@
 		--nc-lk-1: #FF4444; /* Lighter Red */
 		--nc-lk-2: #CC0000; /* Deep Red */
 		--nc-lk-tx: #FFFFFF;
-		--nc-ac-1: #00FF7F; /* Bright Green */
+		--nc-ac-1: #00CC00; /* Bright Green */
 		--nc-ac-tx: #FFFFFF;
 	}
 }
