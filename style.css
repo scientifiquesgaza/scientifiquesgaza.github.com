@@ -93,6 +93,17 @@ input[type="button"]:hover {
 	border-color: var(--nc-lk-2);
 }
 
+blockquote {
+    background: var(--nc-quote-bg) !important;
+    border-left: 5px solid var(--nc-quote-border) !important;
+    color: var(--nc-quote-text) !important;
+    padding: 15px 25px;
+    margin: 15px 0;
+    font-style: italic;
+    border-radius: 6px;
+}
+
+
 mark {
 	background: var(--nc-ac-1);
 	color: var(--nc-ac-tx);
