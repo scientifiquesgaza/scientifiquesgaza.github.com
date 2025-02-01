@@ -4,3 +4,89 @@
     	border: 0px solid #73AD21;
     	padding: 0px;
     	}
+
+/* Import Inter font */
+/* More info at https://github.com/xz/fonts */
+@import url('https://fonts.xz.style/serve/inter.css');
+
+:root {
+	--nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+	--nc-tx-1: #000000;
+	--nc-tx-2: #1A1A1A;
+	--nc-bg-1: #F5F5DC; /* Beige Background */
+	--nc-bg-2: #F5F5DC; /* Beige Secondary Background */
+	--nc-bg-3: #E5E7EB;
+	--nc-lk-1: #FF0000; /* Bright Red Links */
+	--nc-lk-2: #B22222; /* Dark Red on Hover */
+	--nc-lk-tx: #FFFFFF;
+	--nc-ac-1: #008000; /* Bright Green Accents */
+	--nc-ac-2: #006400; /* Dark Green */
+	--nc-ac-tx: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--nc-tx-1: #ffffff;
+		--nc-tx-2: #eeeeee;
+		--nc-bg-1: #F5F5DC; /* Beige Background */
+		--nc-bg-2: #F5F5DC; /* Beige Secondary Background */
+		--nc-bg-3: #222222;
+		--nc-lk-1: #FF4500;
+		--nc-lk-2: #8B0000;
+		--nc-lk-tx: #FFFFFF;
+		--nc-ac-1: #00FF00; /* Bright Green */
+		--nc-ac-2: #228B22; /* Dark Green */
+		--nc-ac-tx: #FFFFFF;
+	}
+}
+
+::selection {
+	background: var(--nc-ac-1);
+	color: var(--nc-ac-tx);
+}
+
+a {
+	color: var(--nc-lk-1);
+	font-weight: bold;
+}
+
+a:hover {
+	color: var(--nc-lk-2);
+	text-decoration: underline;
+}
+
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: var(--nc-ac-1);
+	color: var(--nc-ac-tx);
+	border: 2px solid var(--nc-ac-2);
+	padding: 10px 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.button:focus,
+.button:hover,
+button:focus,
+button:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover {
+	background: var(--nc-lk-1);
+	color: var(--nc-lk-tx);
+	border-color: var(--nc-lk-2);
+}
+
+mark {
+	background: var(--nc-ac-1);
+	color: var(--nc-ac-tx);
+	padding: 2px 5px;
+	border-radius: 3px;
+}
