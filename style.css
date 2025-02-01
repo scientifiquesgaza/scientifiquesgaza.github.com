@@ -21,7 +21,7 @@
 	--nc-lk-tx: #FFFFFF;
 	--nc-ac-1: #2E8B57; /* Soft Green Accents */
 	--nc-ac-2: #1E5D42; /* Deep Green */
-	--nc-ac-tx: #FFFFFF;
+	--nc-title: #1E5D42; /* Dark Green Title */
 }
 
 @media (prefers-color-scheme: dark) {
