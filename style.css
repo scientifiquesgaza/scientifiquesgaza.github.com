@@ -21,6 +21,7 @@
 	--nc-lk-tx: #FFFFFF;
 	--nc-ac-1: #2E8B57; /* Soft Green Accents */
 	--nc-ac-2: #1E5D42; /* Deep Green */
+	--nc-ac-tx: #FFFFFF;
 	--nc-title: #1E5D42; /* Dark Green Title */
 }
 
@@ -37,6 +38,7 @@
 		--nc-ac-1: #4CAF50; /* Fresh Green */
 		--nc-ac-2: #1E7D32;
 		--nc-ac-tx: #FFFFFF;
+		--nc-title: #4CAF50; /* Softer Green for Dark Mode Title */
 	}
 }
 
