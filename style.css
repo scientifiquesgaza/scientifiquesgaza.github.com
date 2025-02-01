@@ -23,6 +23,9 @@
 	--nc-ac-2: #1E5D42; /* Deep Green */
 	--nc-ac-tx: #FFFFFF;
 	--nc-title: #1E5D42; /* Dark Green Title */
+	--nc-quote-bg: #2E8B57; /* Green Background for Blockquotes */
+	--nc-quote-border: #1E5D42; /* Dark Green Border */
+	--nc-quote-text: #FFFFFF; /* White Text for Blockquotes */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +42,9 @@
 		--nc-ac-2: #1E7D32;
 		--nc-ac-tx: #FFFFFF;
 		--nc-title: #4CAF50; /* Softer Green for Dark Mode Title */
+		--nc-quote-bg: #1E7D32; /* Darker Green for Dark Mode Blockquotes */
+		--nc-quote-border: #4CAF50; /* Green Border in Dark Mode */
+		--nc-quote-text: #FFFFFF; /* White Text in Dark Mode */
 	}
 }
 
