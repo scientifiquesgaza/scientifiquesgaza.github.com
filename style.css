@@ -135,7 +135,6 @@ details {
 details summary {
     cursor: pointer;
     font-weight: bold;
-    list-style: none;
     padding: 12px; /* Fixed padding to prevent text movement */
     border-radius: 8px; /* Keeps rounded effect */
     transition: background 0.3s;
