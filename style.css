@@ -124,8 +124,8 @@ h1 {
 }
 
 .toggle-box {
-    background: #F8F1E5; /* Soft beige to match the theme */
-    border: 2px solid #2E8B57; /* Green border to indicate interactivity */
+    background: #F8F1E5 !important; /* Soft beige to match the theme */
+    border: 2px solid #2E8B57 !important; /* Green border to indicate interactivity */
     padding: 12px;
     border-radius: 8px;
     cursor: pointer;
@@ -134,7 +134,7 @@ h1 {
 
 /* When hovered, make it slightly darker or add a shadow */
 .toggle-box:hover {
-    background: #EDE0C8; /* Slightly darker beige */
+    background: #EDE0C8 !important; /* Slightly darker beige */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
