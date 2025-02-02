@@ -128,7 +128,7 @@ details {
     border-radius: 8px; /* Keeps corners rounded at all times */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow */
     transition: box-shadow 0.3s;
-    padding: 5px; /* Smaller padding when closed */
+    padding: 0; /* No extra padding on the box itself */
 }
 
 /* Style the summary (clickable part) */
@@ -136,17 +136,14 @@ details summary {
     cursor: pointer;
     font-weight: bold;
     list-style: none;
-    padding: 10px; /* Fixed padding to prevent text movement */
+    padding: 12px; /* Fixed padding to prevent text movement */
     border-radius: 8px; /* Keeps rounded effect */
     transition: background 0.3s;
-    min-height: 40px; /* Ensures consistent height */
-    display: flex;
-    align-items: center; /* Centers text vertically */
 }
 
 /* Opened details box */
 details[open] {
-    padding: 15px; /* Larger padding when open, but content position remains unchanged */
+    padding: 15px; /* Padding added only inside, without shifting summary */
 }
 
 /* Hover effect for summary */
@@ -157,7 +154,6 @@ details summary:hover {
 details p a:hover {
     text-decoration: underline;
 }
-
 
 
 
