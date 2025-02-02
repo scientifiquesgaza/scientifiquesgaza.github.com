@@ -125,49 +125,62 @@ h1 {
 
 /* Style the summary (clickable part) */
 details summary {
-    background: #F8F1E5 !important; /* Soft beige */
-    border: 2px solid #2E8B57 !important; /* Green border */
-    padding: 12px;
+    background: #2E8B57 !important; /* Rich green */
+    border: 2px solid #B22222 !important; /* Elegant red border */
+    padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
+    color: #FFFFFF !important; /* White text */
     list-style: none;
+    text-align: center;
     transition: background 0.3s, box-shadow 0.3s;
+    margin: 20px 0;
 }
 
-/* Remove default white background on open details */
+/* Remove default styles */
 details {
     background: none !important;
     border: none !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 auto !important;
+    max-width: 600px; /* Keep it elegant and centered */
 }
 
-/* Remove the ugly white box */
+/* Opened details box */
 details[open] {
-    background: #F8F1E5 !important; /* Same color as closed state */
+    background: #2E8B57 !important; /* Keep green */
     border-radius: 8px;
-    padding: 12px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Remove the default white inner box inside */
+/* Inner text inside the open box */
 details[open] p {
     background: none !important;
     border: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* Optional: Add a smooth transition when opening */
-details[open] summary {
-    background: #BFA78B !important; /* Slightly darker beige */
-}
-
-/* Ensure the dropdown text blends well */
-details p {
-    font-size: 16px;
-    color: #222;
     padding: 10px;
+    margin: 0 !important;
+    color: #FFFFFF !important; /* White text */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Hover effect for summary */
+details summary:hover {
+    background: #1E6F44 !important; /* Slightly darker green */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Red accents in text */
+details p a {
+    color: #B22222 !important; /* Red links */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+details p a:hover {
+    text-decoration: underline;
 }
 
