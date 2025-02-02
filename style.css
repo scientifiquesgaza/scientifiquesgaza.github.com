@@ -125,8 +125,6 @@ h1 {
 
 /* Style the summary (clickable part) */
 details summary {
-    border: 2px solid #B22222 !important; /* Elegant red border */
-    border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
     list-style: none;
@@ -143,7 +141,6 @@ details[open] {
 /* Hover effect for summary */
 details summary:hover {
     background: #E57373 !important; /* Slightly darker green */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 details p a:hover {
