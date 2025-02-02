@@ -135,14 +135,14 @@ details {
 details summary {
     cursor: pointer;
     font-weight: bold;
-    padding: 12px; /* Fixed padding to prevent text movement */
+    padding: 0px; /* Fixed padding to prevent text movement */
     border-radius: 8px; /* Keeps rounded effect */
     transition: background 0.3s;
 }
 
 /* Opened details box */
 details[open] {
-    padding: 15px; /* Padding added only inside, without shifting summary */
+    padding: 0px; /* Padding added only inside, without shifting summary */
 }
 
 /* Hover effect for summary */
