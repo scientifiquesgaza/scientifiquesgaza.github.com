@@ -125,22 +125,65 @@ h1 {
 
 /* Style the summary (clickable part) */
 details summary {
+    border-radius: 8px; /* Ensures round corners even before clicking */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow when closed */
+    background: #2E8B57 !important; /* Rich green */
+    border: 2px solid #E57373 !important; /* Elegant red border */
+    padding: 10px 15px;
+    border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
+    color: #FFFFFF !important; /* White text */
     list-style: none;
-    transition: background 0.3s, box-shadow 0.3s;
+    text-align: center;
+    transition: background 0.3s, box-shadow 0.3s, border-radius 0s; /* Prevents tilting effect */
+    margin: 20px 0;
+}
+
+/* Remove default styles */
+details {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    max-width: 600px; /* Keep it elegant and centered */
 }
 
 /* Opened details box */
 details[open] {
+    border-radius: 8px; /* Maintain rounded corners */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow when open */
+    background: #2E8B57 !important; /* Keep green */
     border-radius: 8px;
     padding: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Inner text inside the open box */
+details[open] p {
+    background: none !important;
+    border: none !important;
+    padding: 10px;
+    margin: 0 !important;
+    color: #FFFFFF !important; /* White text */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
 /* Hover effect for summary */
 details summary:hover {
-    background: #E57373 !important; /* Slightly darker green */
+    background: #F4AFAF !important; /* Lighter red for hover */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Consistent shadow effect */
+    background: #1E6F44 !important; /* Slightly darker green */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Red accents in text */
+details p a {
+    color: #B22222 !important; /* Red links */
+    font-weight: bold;
+    text-decoration: none;
 }
 
 details p a:hover {
