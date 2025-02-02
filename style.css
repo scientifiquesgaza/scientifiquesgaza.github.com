@@ -124,25 +124,6 @@ h1 {
 }
 
 /* Style the summary (clickable part) */
-details summary {
-    border-radius: 8px; /* Ensures round corners even before clicking */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow when closed */
-    border-radius: 8px; /* Ensures round corners even before clicking */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow when closed */
-    background: #2E8B57 !important; /* Rich green */
-    border: 2px solid #E57373 !important; /* Elegant red border */
-    padding: 10px 15px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    color: #FFFFFF !important; /* White text */
-    list-style: none;
-    text-align: center;
-    transition: background 0.3s, box-shadow 0.3s, border-radius 0s !important; /* Prevents tilting effect */ /* Prevents tilting effect */
-    margin: 20px 0;
-}
-
-/* Style the summary (clickable part) */
 details {
     border-radius: 8px; /* Ensures the corners stay rounded */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow */
