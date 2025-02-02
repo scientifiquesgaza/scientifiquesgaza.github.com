@@ -132,9 +132,15 @@ h1 {
     transition: background 0.3s, box-shadow 0.3s;
 }
 
-/* When hovered, make it slightly darker or add a shadow */
+/* 🔥 Hover Effect */
 .toggle-box:hover {
-    background: #EDE0C8 !important; /* Slightly darker beige */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    background: #D4C5A8 !important; /* Slightly darker beige */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* 🔥 Active Toggle (When Clicked) */
+.toggle-box.active {
+    background: #BFA78B !important; /* Even darker beige */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
