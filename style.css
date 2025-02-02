@@ -148,8 +148,9 @@ details[open] {
 
 /* Hover effect for summary */
 details summary:hover {
-    background: #FFCDD2 !important; /* Lighter red */
+    background: #C8E6C9 !important; /* Light green */
 }
+
 
 details p a:hover {
     text-decoration: underline;
