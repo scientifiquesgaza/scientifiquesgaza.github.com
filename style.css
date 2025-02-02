@@ -128,21 +128,21 @@ details {
     border-radius: 8px; /* Keeps corners rounded at all times */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow */
     transition: box-shadow 0.3s;
-    padding: 0; /* No extra padding on the box itself */
+    padding: 5px; /* No extra padding on the box itself */
 }
 
 /* Style the summary (clickable part) */
 details summary {
     cursor: pointer;
     font-weight: bold;
-    padding: 0px; /* Fixed padding to prevent text movement */
+    padding: 5px; /* Fixed padding to prevent text movement */
     border-radius: 8px; /* Keeps rounded effect */
     transition: background 0.3s;
 }
 
 /* Opened details box */
 details[open] {
-    padding: 0px; /* Padding added only inside, without shifting summary */
+    padding: 5px; /* Padding added only inside, without shifting summary */
 }
 
 /* Hover effect for summary */
