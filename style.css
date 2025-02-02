@@ -123,25 +123,30 @@ h1 {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
 }
 
-/* Style the summary (clickable part) */
+/* Style the details box */
 details {
-    border-radius: 8px; /* Ensures the corners stay rounded */
+    border-radius: 8px; /* Keeps corners rounded at all times */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow */
     transition: box-shadow 0.3s;
+    padding: 5px; /* Smaller padding when closed */
 }
 
+/* Style the summary (clickable part) */
 details summary {
     cursor: pointer;
     font-weight: bold;
     list-style: none;
-    padding: 10px; /* Added padding for better click area */
-    border-radius: 8px; /* Keeps the rounded effect */
+    padding: 10px; /* Fixed padding to prevent text movement */
+    border-radius: 8px; /* Keeps rounded effect */
     transition: background 0.3s;
+    min-height: 40px; /* Ensures consistent height */
+    display: flex;
+    align-items: center; /* Centers text vertically */
 }
 
 /* Opened details box */
 details[open] {
-    padding: 15px;
+    padding: 15px; /* Larger padding when open, but content position remains unchanged */
 }
 
 /* Hover effect for summary */
@@ -152,6 +157,7 @@ details summary:hover {
 details p a:hover {
     text-decoration: underline;
 }
+
 
 
 
