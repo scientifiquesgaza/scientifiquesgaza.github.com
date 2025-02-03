@@ -155,14 +155,18 @@ details p a:hover {
     text-decoration: underline;
 }
 
-html {
-    overflow-x: hidden;
+html, body {
+    overflow-x: clip;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     width: 100vw;
     min-width: 100%;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
