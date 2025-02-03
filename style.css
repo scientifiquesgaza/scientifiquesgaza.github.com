@@ -156,7 +156,7 @@ details p a:hover {
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 header {
