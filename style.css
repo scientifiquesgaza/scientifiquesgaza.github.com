@@ -155,5 +155,10 @@ details p a:hover {
     text-decoration: underline;
 }
 
+html {
+    overflow-y: scroll;
+}
+
+
 
 
