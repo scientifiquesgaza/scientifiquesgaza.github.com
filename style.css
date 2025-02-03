@@ -155,8 +155,8 @@ details p a:hover {
     text-decoration: underline;
 }
 
-html {
-    overflow-x: hidden;
+details {
+    width: 100%; /* Ensures it doesn't cause shifting */
 }
 
 
