@@ -159,6 +159,11 @@ html {
     overflow-x: hidden;
 }
 
+header {
+    width: 100%;
+    min-width: 100vw;
+}
+
 
 
 
