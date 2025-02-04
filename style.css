@@ -161,5 +161,19 @@ details p a:hover {
     text-decoration: underline;
 }
 
+details summary {
+    font-weight: 400; /* Default weight for the entire line */
+    font-size: 1.1rem;
+}
+
+details summary span.speaker {
+    font-weight: 500; /* Medium bold for speaker name */
+}
+
+details summary span.topic {
+    font-weight: 600; /* Strong bold for the topic */
+}
+
+
 
 
