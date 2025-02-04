@@ -178,11 +178,6 @@ details summary span.topic {
     details summary:hover {
         background: #81C784 !important; /* Darker green in dark mode */
     }
-
-    .calendar-reminder {
-        background: #66BB6A; /* Deeper green for contrast */
-        color: #fff; /* Keep text white in dark mode */
-    }
 }
 
 
