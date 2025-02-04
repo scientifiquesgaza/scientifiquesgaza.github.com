@@ -162,16 +162,16 @@ details p a:hover {
 }
 
 details summary {
-    font-weight: 400; /* Default weight for the entire line */
+    font-weight: 500; /* Default weight for the entire line */
     font-size: 1.1rem;
 }
 
 details summary span.speaker {
-    font-weight: 500; /* Medium bold for speaker name */
+    font-weight: 600; /* Medium bold for speaker name */
 }
 
 details summary span.topic {
-    font-weight: 600; /* Strong bold for the topic */
+    font-weight: 700; /* Strong bold for the topic */
 }
 
 @media (prefers-color-scheme: dark) {
