@@ -177,6 +177,7 @@ details summary span.topic {
 @media (prefers-color-scheme: dark) {
     details summary:hover {
         background: #81C784 !important; /* Darker green in dark mode */
+        color: #F8F8F8 !important; /* Slightly whiter text */
     }
 }
 
