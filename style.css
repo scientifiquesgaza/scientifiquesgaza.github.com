@@ -203,5 +203,19 @@ details summary span.topic {
     }
 }
 
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #D32F2F; /* Default red */
+    padding: 5px 10px;
+}
+
+nav a.active {
+    font-weight: 800; /* Slightly bolder */
+    color: #B71C1C !important; /* Darker red for emphasis */
+    text-decoration: underline; /* Light underline for subtle emphasis */
+}
+
+
 
 
