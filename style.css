@@ -191,6 +191,11 @@ details summary span.topic {
     display: inline-block; /* Prevent unnecessary block expansion */
 }
 
+.calendar-reminder p {
+    margin: 3px 0; /* Reduce vertical gaps */
+    line-height: 1.4; /* Adjust line height for compact text */
+}
+
 /* Dark mode styling */
 @media (prefers-color-scheme: dark) {
     .calendar-reminder {
