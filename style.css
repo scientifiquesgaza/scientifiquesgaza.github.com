@@ -192,7 +192,7 @@ details summary span.topic {
 }
 
 .calendar-reminder p {
-    margin: 3px 0; /* Reduce vertical gaps */
+    margin: 5px 0; /* Reduce vertical gaps */
     line-height: 1.4; /* Adjust line height for compact text */
 }
 
