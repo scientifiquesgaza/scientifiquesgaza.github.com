@@ -188,6 +188,7 @@ details summary span.topic {
     border-left: 5px solid #4CAF50; /* Green border */
     border-radius: 5px;
     color: #000; /* Black text for light mode */
+    display: inline-block; /* Prevent unnecessary block expansion */
 }
 
 /* Dark mode styling */
