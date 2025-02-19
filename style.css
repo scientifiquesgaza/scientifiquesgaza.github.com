@@ -159,7 +159,7 @@ details[open] {
 
 /* Hover effect for summary */
 details summary:hover {
-    background: #f1f8e9 !important; /* Light green */
+    background: #4CAF50 !important; /* Light green */
 }
 
 
