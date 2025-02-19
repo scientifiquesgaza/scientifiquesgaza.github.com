@@ -160,6 +160,7 @@ details[open] {
 /* Hover effect for summary */
 details summary:hover {
     background: #4CAF50 !important; /* Light green */
+    color: white;
 }
 
 
