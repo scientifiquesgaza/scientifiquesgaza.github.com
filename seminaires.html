@@ -37,13 +37,13 @@
       
       <div class="spacer" style="height: 10px;"></div>
       
-      <details>
+      <details data-date="2025-04-01">
         <summary>[à venir 🚀 01/04] <span class="speaker">Laila Sit Aboha</span> - <span class="topic">Opposing the war economy: lessons from Italy's grassroots trade unions and the Palestine solidarity movement.</summary>
         <p>Mardi 01 avril 2025, de 18h à 20h @ Sorbonne Université, amphi Guizot.
            </p>
       </details>  
 
-      <details open>
+      <details data-date="2025-03-19">
         <summary>[à venir 🚀 19/03] <span class="speaker">Dror Warschawski</span> - <span class="topic">BDS universitaire : histoire et perspectives</span>. 📌 Inscription <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4_CjFlrn5n-NYoMPNI8SGWN0__f7urZpptKTdo769zCV_eg/viewform?pli=1">ici</a></summary>
         <p>Mercredi 19 mars 2025, de 18h à 20h @ Sorbonne Université, amphi G. Molinié - Maison de la Recherche, 28 rue Serpente, 75006 Paris.
            </p>
@@ -63,7 +63,7 @@
         
       </details>      
 
-      <details>
+      <details data-date="2025-02-18">
     <summary>[18/02] <span class="speaker">Françoise Vergès</span> - <span class="topic">Pas de paix sans liberation</span>. 
     </summary>        
         <p>
@@ -85,7 +85,7 @@
           </p>
       </details>
 
-       <details>
+       <details data-date="2025-02-04">
     <summary>[04/02] <span class="speaker">Insaf Rezagui</span> - <span class="topic">Quelle place pour le droit face à la guerre ?</span> </summary>
          <p><i>« Le droit international, ce n’est pas pour nous, les Palestinien·nes »</i></p>
          <p>Mardi 4 février 2025, de 18h à 20h @ Sorbonne Université, amphithéâtre Champollion, 16 rue de la Sorbonne, 75005 Paris. </p>
@@ -107,7 +107,7 @@
           </p>
       </details>
       
-      <details>
+      <details data-date="2025-01-22">
     <summary>[22/01] <span class="speaker">Alain Gresh</span> - <span class="topic">Gaza : faillite politique et complicité médiatique</span>. ▶️&nbsp;<a href="https://www.youtube.com/live/QuvYh5Nsv9c">Vidéo</a></summary>        
         <p>Mercredi 22 janvier 2025, de 18h à 20h @ Sorbonne Université, 17 rue de la Sorbonne, 75005 Paris. </p>
         <p>
@@ -136,6 +136,27 @@
             </div>
 
     </section>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const detailsElements = document.querySelectorAll("details[data-date]");
+      const now = new Date();
+      let found = false;
+    
+      detailsElements.forEach(function(details) {
+        if (found) return; // Only open the first upcoming event
+        const dateString = details.getAttribute("data-date");
+        if (dateString) {
+          const seminarDate = new Date(dateString);
+          if (seminarDate > now) {
+            details.setAttribute("open", "");
+            found = true;
+          }
+        }
+      });
+    });
+    </script>
+
 </body>
 
 </html>
