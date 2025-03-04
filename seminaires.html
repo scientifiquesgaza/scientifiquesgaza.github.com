@@ -141,21 +141,27 @@
     document.addEventListener("DOMContentLoaded", function() {
       const detailsElements = document.querySelectorAll("details[data-date]");
       const now = new Date();
-      let found = false;
+      let closestDetails = null;
+      let minDiff = Infinity;
     
       detailsElements.forEach(function(details) {
-        if (found) return; // Only open the first upcoming event
         const dateString = details.getAttribute("data-date");
         if (dateString) {
-          const seminarDate = new Date(dateString);
-          if (seminarDate > now) {
-            details.setAttribute("open", "");
-            found = true;
+          const eventDate = new Date(dateString);
+          const diff = eventDate - now; // Positive if event is in the future
+          if (diff >= 0 && diff < minDiff) {
+            minDiff = diff;
+            closestDetails = details;
           }
         }
       });
+    
+      if (closestDetails) {
+        closestDetails.setAttribute("open", "");
+      }
     });
     </script>
+
 
 </body>
 
