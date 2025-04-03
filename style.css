@@ -79,7 +79,7 @@ input[type="button"] {
 	padding: 6px 14px;
 	font-weight: bold;
 	cursor: pointer;
-	border-radius: 3px;
+	border-radius: 6px;
 	transition: background 0.3s, border-color 0.3s;
 }
 
