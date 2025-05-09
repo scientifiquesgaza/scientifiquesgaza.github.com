@@ -277,7 +277,7 @@ details summary span.topic {
 
   /* Give all details a mid-tone background */
   details {
-    background: var(--nc-bg-2); /* #222222 in dark mode */
+    background: var(--nc-bg-3); /* #222222 in dark mode */
     box-shadow: 0 2px 6px rgba(0,0,0,0.6);
   }
 
