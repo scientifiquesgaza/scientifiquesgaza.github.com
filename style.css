@@ -275,5 +275,10 @@ details summary span.topic {
   }
 }
 
+.calendar-reminder p.title {
+  font-size: 1.2rem;  /* match your other section titles */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
 
 
