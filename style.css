@@ -285,8 +285,8 @@ details summary span.topic {
   details summary {
     background: var(--nc-bg-3); /* #333333 in dark mode */
     color: var(--nc-tx-1);       /* #f5f5f5 */
-    border-radius: 6px;
-    padding: 6px 10px;
+    /*border-radius: 6px;*/
+    /*padding: 6px 10px;*/
   }
 
 .calendar-reminder p.title {
