@@ -245,6 +245,35 @@ details summary span.topic {
   }
 }
 
+/* ─── News box (red theme) ────────────────────────────────── */
+.calendar-reminder {
+  margin-top: 20px;
+  padding: 10px 10px 5px 10px;
+  background: #fdecea;              /* red-light background */
+  border-left: 5px solid #e53935;   /* dark red accent */
+  border-radius: 5px;
+  color: #000;                      /* black text */
+  display: inline-block;
+}
+.calendar-reminder p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+.calendar-reminder a {
+  color: #c62828;                   /* red-dark for links */
+}
+
+/* Dark mode for news */
+@media (prefers-color-scheme: dark) {
+  .calendar-reminder {
+    background: #b71c1c;            /* deep red background */
+    border-left: 5px solid #ef9a9a; /* lighter red border */
+    color: #fff;                    /* white text */
+  }
+  .calendar-reminder a {
+    color: #ffcdd2;                 /* pale red for readability */
+  }
+}
 
 
 
