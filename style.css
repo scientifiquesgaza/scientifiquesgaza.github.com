@@ -275,20 +275,6 @@ details summary span.topic {
   }
 }
 
-  /* Give all details a mid-tone background */
-  details {
-    background: var(--nc-bg-2); /* #222222 in dark mode */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
-  }
-
-  /* Make the summary stand out even more */
-  details summary {
-    background: var(--nc-bg-2); /* #333333 in dark mode */
-    color: var(--nc-tx-1);       /* #f5f5f5 */
-    /*border-radius: 6px;*/
-    /*padding: 6px 10px;*/
-  }
-
 .calendar-reminder p.title {
   font-size: 1.2rem;  /* match your other section titles */
   font-weight: bold;
