@@ -250,7 +250,7 @@ details summary span.topic {
 .calendar-reminder {
   margin-top: 20px;
   padding: 10px 10px 5px 10px;
-  width: 100%; /* ✅ Ensure it fills the container */
+  width: 90%; /* ✅ Ensure it fills the container */
   background: #fdecea;              /* red-light background */
   border-left: 5px solid #e53935;   /* dark red accent */
   border-radius: 5px;
