@@ -10,8 +10,8 @@
 
 hr {
     border: none; /* Remove the default border */
-    height: 3px; /* Set the desired height */
-    background-color: white; /* Set the background color to white */
+    height: 1px; /* Set the desired height */
+    background-color: #F0F0F0; /* Set the background color to white */
 }
 
 :root {
