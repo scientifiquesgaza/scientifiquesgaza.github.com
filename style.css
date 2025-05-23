@@ -163,8 +163,8 @@ details summary:hover {
 }
 
 details[open] p {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 details p a:hover {
