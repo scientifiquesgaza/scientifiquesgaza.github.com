@@ -162,6 +162,9 @@ details summary:hover {
     color: white;
 }
 
+details[open] p {
+  padding: 10px 15px; /* top/bottom 10px, left/right 15px */
+}
 
 details p a:hover {
     text-decoration: underline;
