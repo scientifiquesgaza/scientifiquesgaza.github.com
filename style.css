@@ -11,7 +11,7 @@
 hr {
     border: none; /* Remove the default border */
     height: 1px; /* Set the desired height */
-    background-color: #F0F0F0; /* Set the background color to white */
+    background-color: #FFFFFF; /* #F0F0F0;  Set the background color to white */
 }
 
 :root {
@@ -19,7 +19,7 @@ hr {
 	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
 	--nc-tx-1: #222222;
 	--nc-tx-2: #444444;
-	--nc-bg-1: #FFFFF0;  Very Light Beige (old: #FAF5E4 lighter old: FFF8E1) 
+	--nc-bg-1: #FFFFF0;  /* Very Light Beige (old: #FAF5E4 lighter old: FFF8E1) */
 	--nc-bg-2: #FFFFFF; /* White Secondary Background */
 	--nc-bg-3: #FFFFFF; /* F0F0F0Light Grey for subtle contrast */
 	--nc-lk-1: #D72638; /* Elegant Red Links */
