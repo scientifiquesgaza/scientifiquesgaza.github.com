@@ -21,7 +21,7 @@ hr {
 	--nc-tx-2: #444444;
 	--nc-bg-1: #FFFFF0;  /* Very Light Beige (old: #FAF5E4 lighter old: FFF8E1) */
 	--nc-bg-2: #FFFFFF; /* White Secondary Background */
-	--nc-bg-3: #FFFFFF; /* F0F0F0Light Grey for subtle contrast */
+	--nc-bg-3: #F0F0F0; /* Light Grey for subtle contrast */
 	--nc-lk-1: #D72638; /* Elegant Red Links */
 	--nc-lk-2: #A61B2B; /* Darker Red on Hover */
 	--nc-lk-tx: #FFFFFF;
